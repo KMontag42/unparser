@@ -37,7 +37,7 @@ module Unparser
         emit_arguments
         emit_body
         k_end
-        k_end
+        write(WS)
       end
 
       # Emit arguments
